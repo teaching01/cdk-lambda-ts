@@ -1,0 +1,23 @@
+{
+  "name": "rotate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.137",
+    "@types/node": "^20.12.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.549.0",
+    "@aws-sdk/client-sqs": "3.549.0",
+    "dotenv": "^16.4.5",
+    "jimp": "^0.22.12"
+  }
+}
